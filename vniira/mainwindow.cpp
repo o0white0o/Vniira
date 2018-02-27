@@ -83,6 +83,7 @@ bool MainWindow::fillWidget(QList<QStringList> dataForWidget)
         return false;
 
 }
+
 bool MainWindow::fillNav(QList<QStringList> dataForWidget)
 {
     if(dataForWidget[1][0]=="FAIL" || dataForWidget[2][0]=="FAIL"
